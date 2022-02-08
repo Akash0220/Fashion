@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    min-height: 100vh;
+    width: 100vw;
+    background: url(https://image.freepik.com/free-photo/pretty-young-stylish-sexy-woman-pink-luxury-dress-summer-fashion-trend-chic-style-sunglasses-blue-studio-background-shopping-holding-paper-bags-talking-mobile-phone-shopaholic_285396-2957.jpg) no-repeat;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;      
+}
+.contact-section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100vw;
+}
+.contact-info{
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact-info > i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+.contact-form{
+    margin: 10px;
+    padding: 10px;
+}
+
+.contact-form h2{
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.contact-form .text-box{
+    background: #000;
+    color: #fff;
+    border: none;
+    width: calc(50%-10px);
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px(0,0,0,0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+.contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+.contact-form  textarea{
+    background: #000;
+    color: #fff;
+    border: none;
+    width: 80vw;
+    padding: 12px;
+    font-size:15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+textarea::placeholder{
+    color: white;
+}
+.contact-form .send-btn{
+float: right;
+background: #2E94E3;
+color: #fff;
+border: none;
+width: 120px;
+height: 40px;
+font-size: 15px;
+font-weight: 600;
+text-transform: uppercase;
+letter-spacing: 2px;
+border-radius: 5px;
+cursor: pointer;
+transition: 0.35;
+transition-property: background;
+}
+.contact-form .send-btn:hover{
+    background: #0582E3;
+}
+
+

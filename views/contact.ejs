@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | FashionBucket</title>
+    <link rel="stylesheet" href="../static/css/contact.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <%- include('partials/header.ejs');-%>
+    </div>
+    <div class="contact-page">
+        <form class="contact-form">
+            <div class="row"><h1>Contact</h1></div>
+            
+                <div class="elementContainer">
+                    <div class="labelContainer">
+                        <label>Name</label>
+                    </div>
+                    <div class="inputContainer">
+                        <input type="text" placeholder="Enter your name">
+                    </div>
+                </div>
+                <div class="elementContainer">
+                    <div class="labelContainer">
+                        <label>Email</label>
+                    </div>
+                    <div class="inputContainer">
+                        <input type="email" placeholder="Enter your email">
+                    </div>
+                </div>
+            
+          
+                <div class="elementContainer">
+                    <div class="labelContainer">
+                        <label>Phone</label>
+                    </div>
+                    <div class="inputContainer">
+                        <input type="text" placeholder="Enter your phone no.">
+                    </div>
+                </div>
+                <div class="elementContainer">
+                    <div class="labelContainer">
+                        <label>Address</label>
+                    </div>
+                    <div class="inputContainer">
+                        <input type="text" placeholder="Enter yourfull address">
+                    </div>
+                </div>
+           
+          
+                <div class="elementContainer">
+                    <div class="labelContainer">
+                        <label>Message</label>
+                    </div>
+                    <div class="inputContainer">
+                        <textarea cols="30" rows="10" placeholder="Enter message"></textarea>
+                    </div>
+                </div>
+           
+            <div class="row btn-container">
+                <a class="btn">Submit</a>
+            </div>
+        </form>
+    </div>
+       <!-- ---------------Footer----------------- -->
+       <%- include('partials/footer.ejs');-%>
+</body>
+
+</html>

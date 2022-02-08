@@ -1,5 +1,5 @@
 const contact =  (req, res)=>{
-    res.end('This is contact page');
+    res.status(200).render('contact');
 }
 
 module.exports = contact;

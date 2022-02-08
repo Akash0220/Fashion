@@ -1,5 +1,5 @@
 const about = (req, res)=>{
-    res.end('This is About Page.');
+    res.status(200).render('about');
 }
 
 module.exports = about;
